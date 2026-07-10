@@ -1,5 +1,8 @@
 # chickho
 
+[![ci](https://github.com/ampactor-labs/chickho/actions/workflows/ci.yml/badge.svg)](https://github.com/ampactor-labs/chickho/actions/workflows/ci.yml)
+[![determinism](https://github.com/ampactor-labs/chickho/actions/workflows/determinism.yml/badge.svg)](https://github.com/ampactor-labs/chickho/actions/workflows/determinism.yml)
+
 A mobile-first Ultimate Chicken Horse-like: place one trap, then race
 the ghost horses of your own past runs. Traps placed after a ghost was
 recorded can kill it; finish while your old selves die to score; first
