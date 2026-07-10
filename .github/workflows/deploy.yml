@@ -43,13 +43,13 @@ jobs:
       - name: Export web build
         run: |
           ~/godot-bin/godot --headless --path game --import || true
-          mkdir -p build/web
+          mkdir -p game/build/web
           ~/godot-bin/godot --headless --path game --export-release Web build/web/index.html
-          test -s build/web/index.html
-          test -s build/web/index.wasm
+          test -s game/build/web/index.html
+          test -s game/build/web/index.wasm
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: build/web
+          path: game/build/web
   deploy:
     needs: build
     runs-on: ubuntu-latest
